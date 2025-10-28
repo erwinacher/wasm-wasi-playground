@@ -1,0 +1,93 @@
+# -------------------------------------------------------------
+# Universal C / C++ / Rust .gitignore
+# -------------------------------------------------------------
+
+# --- Build Artifacts ---
+# C / C++
+*.o
+*.obj
+*.lo
+*.la
+*.slo
+*.so
+*.so.*
+*.a
+*.lib
+*.dll
+*.dylib
+*.exe
+*.out
+*.app
+*.wasm
+*.wast
+
+# Rust
+target/
+Cargo.lock
+
+# --- Intermediate Files ---
+*.d
+*.dep
+*.mod
+*.gch
+*.pch
+*.s
+*.i
+
+# --- CMake / Ninja ---
+build/
+build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+Testing/
+CTestTestfile.cmake
+_deps/
+*.ninja
+.ninja_deps
+.ninja_log
+
+# --- Makefiles / Autotools ---
+Makefile
+Makefile.in
+config.log
+config.status
+autom4te.cache/
+
+# --- Logs / Dumps ---
+*.log
+*.trace
+*.gcda
+*.gcno
+*.gcov
+*.prof
+*.profraw
+
+# --- Editors / IDEs ---
+# VSCode
+.vscode/
+# JetBrains CLion / IntelliJ
+.idea/
+# Vim / Neovim
+*.swp
+*.swo
+*.swn
+# Emacs
+*~
+\#*\#
+# macOS
+.DS_Store
+.AppleDouble
+# Windows
+Thumbs.db
+Desktop.ini
+
+# --- LLVM / Clang ---
+*.ll
+*.bc
+*.objdump
+*.opt*
+
+
