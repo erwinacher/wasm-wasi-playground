@@ -23,7 +23,7 @@ echo "[2/2] Setting runtime library path..."
 export LD_LIBRARY_PATH="${LLVM_ROOT}/lib/x86_64-unknown-linux-gnu:${LD_LIBRARY_PATH}"
 
 echo
-echo "✅ Build complete!"
+echo "Build complete!"
 echo "You can now run it with:"
 echo "  ./cxx23_sanity"
 echo
