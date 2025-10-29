@@ -26,3 +26,9 @@ make
 python3 server.py
 serving at port 4242
 ```
+
+## Screenshot
+
+<img width="1236" height="378" alt="image" src="https://github.com/user-attachments/assets/b4c35e57-d635-422c-897f-17f2facb3eee" />
+
+
