@@ -1,4 +1,4 @@
-# Webassemly with only Clang 8+ (tested with 11, 14)
+# Webassemly with only Clang 8+ (tested with 11, 14 and 21)
 
 I did not find instructions for this anywhere online, so here they are. We can now build small wasm files with nothing other than Clang (e.g. Emscripten is not needed).
 
@@ -30,5 +30,12 @@ serving at port 4242
 ## Screenshot
 
 <img width="1236" height="378" alt="image" src="https://github.com/user-attachments/assets/b4c35e57-d635-422c-897f-17f2facb3eee" />
+
+## Further development
+- [] porting to modern C++23 
+- [] build a rust web server using axum
+- [] use wasmer or wasmtime for a server side wasm/wasi module
+- [] make the two wasm modules client and server communicate using a binary protocol
+
 
 
